@@ -1,0 +1,267 @@
+.login {
+  background-color: #fff;
+  color: #C71269;
+  padding: 7px 30px;
+  border-radius: 20px;
+  border-color: #C71269;
+}
+
+.login:hover {
+  background-color: #C71269;
+  color: #fff;
+}
+
+.register {
+  background-color: #C71269;
+  color: #fff;
+  padding: 7px 30px;
+  border-radius: 20px;
+  border-color: #C71269;
+}
+
+.register:hover {
+  background-color: #fff;
+  color: #C71269;
+}
+
+h2 {
+  color: #E40066;
+}
+
+nav {
+  background-color: #131720;
+  padding: 30px;
+}
+
+nav .logo {
+  text-transform: capitalize;
+  font-weight: 800 !important;
+  font-size: 24px !important;
+  color: #C71269 !important;
+}
+
+nav .logo::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background: -webkit-gradient(linear, left top, right top, from(#006FBE97), color-stop(#1663B5A2), color-stop(#51479EBD), color-stop(#AF197AE7), to(#E40066));
+  background: linear-gradient(to right, #006FBE97, #1663B5A2, #51479EBD, #AF197AE7, #E40066);
+  width: 60px;
+  height: 4px;
+}
+
+nav .navbar-nav {
+  width: 60%;
+}
+
+nav .navbar-nav .nav-link {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-right: 24px;
+}
+
+nav .navbar-nav .active::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #C71269;
+}
+
+nav .navbar-activtes {
+  width: 39%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .form-inline {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    margin: 0px auto 15px;
+  }
+  .navbar-activtes {
+    width: 75% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  .navbar-activtes .form-inline {
+    margin-bottom: 20px;
+  }
+}
+
+#home {
+  background: url(../img/zhang-kaiyv-cZCMpbBw-8s-unsplash.jpg) center/cover no-repeat;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+#home .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #4848b3;
+  opacity: 0.71;
+}
+
+#home .overlay .home-one {
+  height: 100%;
+}
+
+#home .overlay .home-one .up-line::before {
+  content: "";
+  display: block;
+  background-color: #C71269;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  right: 35%;
+  border-radius: 20px;
+}
+
+#home .overlay .home-one ul {
+  list-style: none;
+  margin: 50px auto;
+}
+
+#home .overlay .home-one ul li {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#home .overlay .home-one ul .active {
+  background-color: #C71269;
+}
+
+#home .touch {
+  width: 70%;
+  position: absolute;
+  background: #fff;
+  color: #C71269;
+  margin: 0 auto;
+  padding: 30px 10px;
+  left: 200px;
+  bottom: -50px;
+}
+
+.location .border-1 {
+  padding: 10px 20px;
+  border: solid 1px #E40066;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.location .camp {
+  color: #fff;
+  margin: 3px;
+}
+
+.location .camp p {
+  padding: 20px 10px;
+  background-color: #F7EDF5;
+  color: #E40066;
+  font-weight: bold;
+}
+
+.location .camp .active {
+  background-color: #E40066;
+  border-radius: 8px 8px 0 0;
+  color: #fff;
+}
+
+.location #egypt {
+  margin-top: 20px;
+  padding: 40px 10px;
+  background-color: #fff;
+  border: solid 1px #E40066;
+  position: relative;
+}
+
+.location #egypt .abosulote {
+  position: absolute;
+  margin: auto;
+  bottom: -22px;
+  left: 30%;
+}
+
+.location #saudi {
+  margin: 20px 0;
+  padding: 40px 10px;
+  border: 1px solid #E40066;
+}
+
+.location #saudi .launch {
+  margin: 20px 0;
+  color: #7A2F81;
+  font-size: 25px;
+}
+
+.future {
+  height: 461px;
+  width: 1366px;
+  margin-top: 50px;
+  color: #fff;
+  background: url(../img/pmv-chamara-FVhY6nswJ8g-unsplash.jpg) center/cover;
+}
+
+.future .futured {
+  padding: 70px;
+}
+
+.future .futured span {
+  color: yellow;
+}
+
+.challenge {
+  background-color: #FAF1F5;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.challenge .based {
+  padding: 10px 5px;
+  background: #fff;
+  border: solid 1px #E40066;
+  color: #E40066;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.challenge .based span {
+  background-color: #C71269;
+  color: #fff;
+  width: 10px;
+  height: 5px;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.challenge .one {
+  background-color: #E40066;
+  color: #FFF;
+}
+
+.challenge .one span {
+  background: #fff;
+  color: #E40066;
+}
+/*# sourceMappingURL=style.css.map */

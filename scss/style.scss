@@ -1,0 +1,293 @@
+// global
+
+.login{
+  background-color: #fff;
+  color: #C71269;
+  padding: 7px 30px ;
+  border-radius: 20px;
+  border-color: #C71269;
+  &:hover{
+    background-color: #C71269;
+    color: #fff;
+  }
+}
+
+.register{
+  background-color: #C71269;
+  color: #fff;
+  padding: 7px 30px ;
+  border-radius: 20px;
+  border-color: #C71269;
+  &:hover{
+    background-color: #fff;
+    color: #C71269;
+  }
+}
+
+h2{
+  color: #E40066;
+}
+
+
+
+
+nav{
+  background-color: #131720;
+  padding: 30px;
+  .logo{
+    text-transform: capitalize;
+    font-weight: 800 !important;
+    font-size: 24px !important;
+    color: #C71269 !important;
+    
+    
+    &::after{
+      position: absolute;
+      display: block;
+      content: "";
+      background: linear-gradient(to right,#006FBE97, #1663B5A2, #51479EBD, #AF197AE7, #E40066);
+      width: 60px;
+      height: 4px;
+    
+    }
+   
+   
+    
+  }
+  .navbar-nav{
+    width: 60%;
+    .nav-link 
+    {
+        color: white;
+        font: 
+        {
+            size: 0.875rem;
+            weight: 500;
+        }
+        margin-right: 24px;
+    }
+    .active::after{
+      position: absolute;
+      display: block;
+      content: "";
+      width: 50px;
+      height: 3px;
+      background-color: #C71269;
+    }
+  }
+ .navbar-activtes
+  {
+      width: 39%;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .form-inline
+  {
+      width: 60%;
+  }
+  
+}
+@media screen and (max-width: 991px){
+  .navbar-nav
+  {
+      margin: 0px auto 15px ;
+  }
+  .navbar-activtes
+  {
+      width: 75% !important;
+      flex-direction: column;
+      margin: auto;
+      .form-inline
+      {
+          margin-bottom: 20px;
+      }
+  }
+}
+
+
+// home
+
+#home{
+  background:url(../img/zhang-kaiyv-cZCMpbBw-8s-unsplash.jpg)center/cover no-repeat ; 
+  height: 100vh;
+  color:#fff;
+  position: relative;
+  
+  
+  .overlay{
+    height:100%;
+    width: 100%;
+    background-color: #4848b3 ;
+    opacity: 0.71;
+    
+  
+    .home-one{
+      height: 100%;
+      
+     .up-line::before{
+          content: "";
+          display: block;
+          background-color: #C71269;
+          width: 70px;
+          height: 20px;
+          position: absolute;;
+          right: 35%;
+          border-radius: 20px;
+         
+     }
+      ul{
+        list-style: none;
+        margin: 50px auto;
+        
+        li{
+          display: inline-block;
+          margin-right: 30px;
+          text-align: center;
+          background: #fff;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;  
+        }
+        .active{
+          background-color: #C71269;
+        }
+        
+
+      }
+      
+    }
+  
+  }
+
+  // touch
+  .touch{
+   
+  width: 70%;
+ position: absolute;
+  background: #fff;
+  color: #C71269;
+  margin:0 auto;
+  padding: 30px 10px;
+  left: 200px;
+  bottom: -50px;
+  }
+}
+
+
+.location{
+  
+  .border-1{
+    padding: 10px 20px;
+    border: solid 1px #E40066;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .camp{
+  
+    color: #fff;
+    margin:  3px;
+     p{
+       padding: 20px 10px;
+       background-color: #F7EDF5;
+       color: #E40066;
+       font-weight: bold;
+       
+       
+     }
+     .active{
+       background-color: #E40066;
+       border-radius: 8px 8px 0 0;
+       color: #fff;
+     }
+  }
+  #egypt{
+    margin-top: 20px;
+    padding: 40px 10px;
+    background-color: #fff;
+    border: solid 1px #E40066;
+   position: relative;
+   .abosulote{
+     position: absolute;
+     margin: auto;
+     bottom: -22px;
+     left: 30%;
+   }
+  
+   
+  
+  }#saudi{
+    margin: 20px 0;
+    padding: 40px 10px;
+    border: 1px solid #E40066;
+  
+     .launch{
+       margin: 20px 0;
+       color: #7A2F81;
+       font-size: 25px;
+     }
+   }
+}
+
+// future
+
+.future{
+  height: 461px;
+  width: 1366px;
+  margin-top: 50px;
+  color: #fff;
+  background:url(../img/pmv-chamara-FVhY6nswJ8g-unsplash.jpg)center/ cover;
+  .futured{
+    
+    padding: 70px;
+    span{
+      color: yellow;
+    }
+  }
+}
+
+// challeng
+.challenge{
+  background-color: #FAF1F5;
+  padding: 20px;
+  margin-top: 50px;
+  .based{
+    padding: 10px 5px;
+    
+    background: #fff;
+    border: solid 1px #E40066;
+    color: #E40066;
+    border-radius: 20px;
+    text-align: center;
+    
+  
+  span{
+    background-color: #C71269;
+    color: #fff;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+}
+.one{
+      background-color: #E40066;
+      color: #FFF;
+      span{
+        background: #fff;
+        color: #E40066;
+      }
+    }
+
+}
+
+
+
+.buttons{
+  width: 30%;
+}
